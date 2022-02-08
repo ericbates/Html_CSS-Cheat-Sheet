@@ -1,3 +1,35 @@
-p {
-  color: red;
+body {
+  background-color: cornflowerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: darkred;
+}
+
+table {
+  border: 3px solid darkred;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+}
+
+tbody {
+  text-align: left;
+}
+
+td {
+  border-top: 1px solid darkred;
+}
+
+thead td {
+  background-color: indianred;
+  border-top: 0px;
+  font-weight: bold;
+}
+
+.code-sample {
+  background-color: blanchedalmond;
+  font-family: monospace;
 }
